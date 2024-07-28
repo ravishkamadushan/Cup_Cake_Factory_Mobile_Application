@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cup Cake Factory"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".reglist"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterForm"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewOne"
+            android:exported="false" />
+        <activity
+            android:name=".OrderList"
+            android:exported="false" />
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+        <activity
+            android:name=".OrderForm"
+            android:exported="false" />
+        <activity
+            android:name=".StrawberryCakes"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeeCakes"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".LemonCakes"
+            android:exported="false" />
+        <activity
+            android:name=".RedVelvetCakes"
+            android:exported="false" />
+        <activity
+            android:name=".ChocolateCakes"
+            android:exported="false" />
+        <activity
+            android:name=".BirthdayCakes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
